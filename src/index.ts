@@ -1,3 +1,5 @@
+// initial deploy
+
 export default {
   async fetch(request: Request): Promise<Response> {
     if (request.method === "OPTIONS") {
