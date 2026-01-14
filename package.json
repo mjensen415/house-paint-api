@@ -1,0 +1,21 @@
+{
+  "name": "house-paint-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for House Paint App",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "upng-js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
